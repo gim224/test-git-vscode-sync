@@ -9,7 +9,7 @@ const cources = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("Hell World - I'm NODEMON");
+  res.send("Hell World - I'm NODEMONs");
 });
 
 app.get("/api/cources", (req, res) => {
